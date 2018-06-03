@@ -1,0 +1,314 @@
+/* Patrick Bohse
+CSS stylesheet for personal website */
+
+@font-face{
+    font-family: TallFilm;
+    src: url(TallFilm.ttf);
+}
+
+@font-face{
+    font-family: TallFilmFine;
+    src: url(TallFilmFine.ttf);
+}
+
+@font-face{
+    font-family: TallFilmOblique;
+    src: url(TallFilmOblique.ttf);
+}
+
+@font-face{
+    font-family: TallFilmExpanded;
+    src: url(TallFilmExpanded.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    background-color: white
+ }
+
+
+ h1{
+    font-family: 'Baumans', cursive;
+    color: black;
+    font-size: 10vh;
+ }
+ 
+h2{
+    font-family: 'Baumans', cursive;
+    color: black;
+    font-size: 7vh;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.navbar{
+    z-index: 3;
+    display: inline-block;
+    height: 50px;
+    vertical-align: top;
+    background-color: cadetblue;
+    width: 100%;
+    position: fixed;  
+}
+
+.navbar p{
+    font-family: 'Baumans', cursive;
+    font-size: 25pt;
+    color: white;
+	margin-top: 7px;
+	text-align: center;
+}
+
+#title{
+    color: black;
+}
+    
+
+#menu_icon{
+    color: white;
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin-top: 4px;
+    margin-left: 10px;
+   
+}
+
+.menu_background{
+    display: none;
+    z-index: 2;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 50px;
+    width: 63px;
+    background-color: cadetblue;
+}
+
+.icon_background{
+    display: block;
+}
+
+.body_main{
+    position: relative;
+    overflow: auto;
+    min-height: 100%;
+}
+
+#front_description{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+    padding: 20px;
+ }
+ 
+.dropdown{
+    display: none;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    margin-top: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content p{
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 30px;
+    padding: 15px;
+    background-color: white;
+}
+
+.dropdown-content-click {
+    display: block;
+}
+
+.dropdown-content a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: #444444;
+}
+a:active{
+    text-decoration: none;
+    color: black;
+}
+
+.content{
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-weight: 300;
+    width: 80%;
+    margin: 0 auto;
+}
+.top{
+    background-color:#cfcfcf;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.middle{
+    background-color:#cfcfcf;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bottom{
+    background-color:#cfcfcf;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#hello{
+    padding-top: 50px;
+    display: table;
+}
+
+#hello p{
+    font-size: 25px;
+}
+
+#resume{
+    padding-top: 50px;
+	display: table;
+    text-align: center;
+    margin: 0 auto;
+    width: 55%;
+}
+
+#resume p{
+    font-size: 25px;
+}
+
+#things_ive_done{
+    padding-top: 50px;
+	display: table;
+    text-align: center;
+}
+
+#things_ive_done p{
+    font-size: 20px;
+    text-align: left;
+    padding: 10px;
+}
+
+#contact_me{
+    width: 55%;
+    margin: 0 auto;
+    padding-top: 50px;
+	display: table;
+    text-align: center;
+}
+
+#contact_me p{
+    padding: 15px;
+    font-size: 23px;
+}
+
+span{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#web_design{
+    font-family: 'Baumans', cursive;
+    color: cadetblue;
+	height: 100px;
+    font-weight: 300;
+	font-size: 12px;
+	text-align: center;
+}
+
+#about_me_footer{
+    font-family: 'Baumans', cursive;
+    font-weight: 300;
+}
+#resume_footer{
+    font-family: 'Baumans', cursive;
+    font-weight: 300;
+}
+#things_ive_done_footer{
+    font-family: 'Baumans', cursive;
+    font-weight: 300;
+}
+#contact_me_footer{
+    font-family: 'Baumans', cursive;
+    font-weight: 300;
+}
+
+.content div h2{
+    padding-bottom: 30px;
+}
+
+.next{
+    z-index: 1;
+    position: fixed;
+	padding-top: 10px; 
+    bottom: 0;
+    width:100%;
+    height: 50px;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+
+.next_hover{
+    display:block;
+}
+
+.next a{
+    font-size: 20pt;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+.next a:hover{
+    color: #cfcfcf;
+}
+
+
+.vheight{
+    height: 90vh;
+    width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .dropdown{
+        display: block;
+    }
+    .next{
+        display: none;
+    }
+}
+
+
