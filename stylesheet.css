@@ -1,27 +1,6 @@
 /* Patrick Bohse
 CSS stylesheet for personal website */
 
-@font-face{
-    font-family: TallFilm;
-    src: url(TallFilm.ttf);
-}
-
-@font-face{
-    font-family: TallFilmFine;
-    src: url(TallFilmFine.ttf);
-}
-
-@font-face{
-    font-family: TallFilmOblique;
-    src: url(TallFilmOblique.ttf);
-}
-
-@font-face{
-    font-family: TallFilmExpanded;
-    src: url(TallFilmExpanded.ttf);
-}
-
-
 *{
     margin: 0;
     padding: 0;
@@ -33,13 +12,13 @@ body{
 
 
  h1{
-    font-family: 'Baumans', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
     color: black;
     font-size: 10vh;
  }
  
 h2{
-    font-family: 'Baumans', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
     color: black;
     font-size: 7vh;
 }
@@ -59,7 +38,7 @@ ul{
 }
 
 .navbar p{
-    font-family: 'Baumans', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 25pt;
     color: white;
 	margin-top: 7px;
@@ -103,7 +82,7 @@ ul{
 }
 
 #front_description{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
     color: white;
     font-weight: 300;
     font-size: 30px;
@@ -122,7 +101,7 @@ ul{
 }
 
 .dropdown-content p{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
     color: black;
     font-weight: 300;
     font-size: 30px;
@@ -157,7 +136,7 @@ a:active{
 }
 
 .content{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
     color: black;
     font-weight: 300;
     width: 80%;
@@ -238,28 +217,28 @@ span{
 }
 
 #web_design{
-    font-family: 'Baumans', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
     color: cadetblue;
-	height: 100px;
+    height: 100px;
     font-weight: 300;
-	font-size: 12px;
-	text-align: center;
+    font-size: 12px;
+    text-align: center;
 }
 
 #about_me_footer{
-    font-family: 'Baumans', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
     font-weight: 300;
 }
 #resume_footer{
-    font-family: 'Baumans', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
     font-weight: 300;
 }
 #things_ive_done_footer{
-    font-family: 'Baumans', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
     font-weight: 300;
 }
 #contact_me_footer{
-    font-family: 'Baumans', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
     font-weight: 300;
 }
 
@@ -270,7 +249,7 @@ span{
 .next{
     z-index: 1;
     position: fixed;
-	padding-top: 10px; 
+    padding-top: 10px; 
     bottom: 0;
     width:100%;
     height: 50px;
@@ -285,7 +264,7 @@ span{
 
 .next a{
     font-size: 20pt;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
     color: white;
     font-weight: 300;
     text-decoration: none;
